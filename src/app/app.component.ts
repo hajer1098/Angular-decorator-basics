@@ -10,4 +10,8 @@ export class AppComponent {
   //if you will choose false you will show please login msg 
   userLoggedIn =true;
 
+  greet(name:string){
+    alert("hello " + name);
+  }
+
 }
